@@ -1,0 +1,196 @@
+
+C:\Users\Abdo Gamal>cd Downloads
+
+C:\Users\Abdo Gamal\Downloads>cd github2
+
+C:\Users\Abdo Gamal\Downloads\github2>git clone https://github.com/AbdoGamal74/alx-pre_course.git
+Cloning into 'alx-pre_course'...
+remote: Enumerating objects: 31, done.
+Receiving objects: 100% (31/31), 4.70 KiB | 802.00 KiB/s, done./31)
+Resolving deltas: 100% (4/4), done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 31 (delta 4), reused 17 (delta 1), pack-reused 0
+
+C:\Users\Abdo Gamal\Downloads\github2>cd 0x01-git
+The system cannot find the path specified.
+
+C:\Users\Abdo Gamal\Downloads\github2>cd alx-pre_course
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>cd 0x01-git
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bash/
+        c/
+        js/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git add *
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git commit -m"Starting to code today, so cool"
+[main 4906680] Starting to code today, so cool
+ 5 files changed, 5 insertions(+)
+ create mode 100644 0x01-git/bash/alx
+ create mode 100644 0x01-git/bash/school
+ create mode 100644 0x01-git/c/c_is_fun.c
+ create mode 100644 0x01-git/js/index.js
+ create mode 100644 0x01-git/js/main.js
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 650 bytes | 108.00 KiB/s, done.
+Total 8 (delta 0), reused 1 (delta 0), pack-reused 0
+To https://github.com/AbdoGamal74/alx-pre_course.git
+   5292cfa..4906680  main -> main
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>cd ..
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git branch update_script
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git bramch
+git: 'bramch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git branch
+* main
+  update_script
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git checkout update_script
+Switched to branch 'update_script'
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>cd 0x01-git
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>cd bash
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "ALX School"
+"ALX School"
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>nano alx
+'nano' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo>98
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>cd alx
+The directory name is invalid.
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git status
+On branch update_script
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        98
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git info
+git: 'info' is not a git command. See 'git --help'.
+
+The most similar commands are
+        init
+        mailinfo
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "ALX School is so cool!"
+"ALX School is so cool!"
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "ALX School is so cool!">alx
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "ALX School">alx
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "The school is open!">school
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git add *
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git commit -m "My personal work"
+[update_script 10b2785] My personal work
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+ create mode 100644 0x01-git/bash/98
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git push origin update_script
+Enumerating objects: 12, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 515 bytes | 128.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'update_script' on GitHub by visiting:
+remote:      https://github.com/AbdoGamal74/alx-pre_course/pull/new/update_script
+remote:
+To https://github.com/AbdoGamal74/alx-pre_course.git
+ * [new branch]      update_script -> update_script
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>echo "ALX School is so cool!">alx
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>git rm -r js
+fatal: pathspec 'js' did not match any files
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git\bash>cd ..
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git rm -r js
+rm '0x01-git/js/index.js'
+rm '0x01-git/js/main.js'
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git add *
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git commit "Hot fix"
+error: pathspec 'Hot fix' did not match any file(s) known to git
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git commit -m "Hot fix"
+[main d5d3944] Hot fix
+ 3 files changed, 1 insertion(+), 3 deletions(-)
+ delete mode 100644 0x01-git/js/index.js
+ delete mode 100644 0x01-git/js/main.js
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 513 bytes | 171.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdoGamal74/alx-pre_course.git
+   4906680..d5d3944  main -> main
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>cd ..
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>echo> up_to_date
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git add *
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git commit -m "How to be up to date in git"
+[main a2c9cc5] How to be up to date in git
+ 2 files changed, 176 insertions(+)
+ create mode 100644 up_to_date
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.77 KiB | 602.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AbdoGamal74/alx-pre_course.git
+   d5d3944..a2c9cc5  main -> main
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course>cd 0x01-git
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>echo> up_to_date
+
+C:\Users\Abdo Gamal\Downloads\github2\alx-pre_course\0x01-git>
